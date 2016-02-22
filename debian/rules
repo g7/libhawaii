@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+
+# Some tests can't be run in the buildd environment
+#export QT_QPA_PLATFORM=minimal
+
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
+%:
+	dh $@ --parallel --with pkgkde_symbolshelper
+
+override_dh_auto_configure:
+	# FIXME: Headers are arch-independent, but to avoid creating yet
+	# another package, they are included in the triplet directory so
+	# that they can be shipped alongside the rest
+	dh_auto_configure -- \
+	    -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+	    -DECM_MKSPECS_INSTALL_DIR=/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/modules \
+	    -DQML_INSTALL_DIR=/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml
+
+override_dh_auto_test:
+#	xvfb-run -a dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/declarative LD_LIBRARY_PATH=$(CURDIR)/src

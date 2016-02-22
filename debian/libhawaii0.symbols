@@ -1,0 +1,25 @@
+# SymbolsHelper-Confirmed: 0.6.90 amd64
+libHawaii.so.0 libhawaii0 #MINVER#
+ _ZN6Hawaii10QGSettings10resetValueERK7QString@Base 0.6.90
+ _ZN6Hawaii10QGSettings11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.6.90
+ _ZN6Hawaii10QGSettings11qt_metacastEPKc@Base 0.6.90
+ _ZN6Hawaii10QGSettings11trySetValueERK7QStringRK8QVariant@Base 0.6.90
+ _ZN6Hawaii10QGSettings14settingChangedERK7QString@Base 0.6.90
+ _ZN6Hawaii10QGSettings16staticMetaObjectE@Base 0.6.90
+ _ZN6Hawaii10QGSettings17isSchemaInstalledERK7QString@Base 0.6.90
+ _ZN6Hawaii10QGSettings7schemasEv@Base 0.6.90
+ _ZN6Hawaii10QGSettings8setValueERK7QStringRK8QVariant@Base 0.6.90
+ _ZN6Hawaii10QGSettingsC1ERK7QStringS3_P7QObject@Base 0.6.90
+ _ZN6Hawaii10QGSettingsC2ERK7QStringS3_P7QObject@Base 0.6.90
+ _ZN6Hawaii10QGSettingsD0Ev@Base 0.6.90
+ _ZN6Hawaii10QGSettingsD1Ev@Base 0.6.90
+ _ZN6Hawaii10QGSettingsD2Ev@Base 0.6.90
+ _ZNK6Hawaii10QGSettings10metaObjectEv@Base 0.6.90
+ _ZNK6Hawaii10QGSettings12defaultValueERK7QString@Base 0.6.90
+ _ZNK6Hawaii10QGSettings4keysEv@Base 0.6.90
+ _ZNK6Hawaii10QGSettings5valueERK7QString@Base 0.6.90
+ _ZNK6Hawaii10QGSettings7choicesERK7QString@Base 0.6.90
+ _ZNK6Hawaii10QGSettings7isValidEv@Base 0.6.90
+ _ZTIN6Hawaii10QGSettingsE@Base 0.6.90
+ _ZTSN6Hawaii10QGSettingsE@Base 0.6.90
+ _ZTVN6Hawaii10QGSettingsE@Base 0.6.90

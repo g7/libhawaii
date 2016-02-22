@@ -1,0 +1,4 @@
+/usr/lib/*/libHawaii.so
+#/usr/lib/*/pkgconfig
+/usr/lib/*/cmake
+/usr/include

@@ -1,0 +1,49 @@
+Source: libhawaii
+Section: libs
+Priority: optional
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Build-Depends: debhelper (>= 9),
+               pkg-kde-tools,
+               cmake,
+               extra-cmake-modules,
+               qtbase5-dev (>= 5.4.0),
+               qtdeclarative5-dev (>= 5.4.0),
+               libglib2.0-dev
+Standards-Version: 3.9.6
+Vcs-Git: https://github.com/g7/libhawaii.git
+Vcs-Browser: https://github.com/g7/libhawaii
+Homepage: https://github.com/hawaii-desktop/libhawaii
+
+Package: libhawaii0
+Multi-Arch: same
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: Core shared library for Hawaii desktop suite -- library
+ Core utility library for all Hawaii components.
+ .
+ This package contains the library.
+
+Package: libhawaii-dev
+Section: libdevel
+Multi-Arch: same
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: Core shared library for Hawaii desktop suite -- development headers
+ Core utility library for all Hawaii components.
+ .
+ This package contains the development headers.
+
+Package: qml-module-org-hawaiios-settings
+Multi-Arch: same
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: Core shared library for Hawaii desktop suite -- org.hawaiios.settings QML module
+ Core utility library for all Hawaii components.
+ .
+ This package contains the org.hawaiios.settings QML module.

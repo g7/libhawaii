@@ -1,0 +1,61 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libhawaii
+Source: https://github.com/hawaii-desktop/libhawaii
+
+Files: *
+Copyright: 2013-2015, Pier Luigi Fiorini
+License: LGPL-3
+
+Files: declarative/*
+Copyright: 2013-2015, Pier Luigi Fiorini
+License: LGPL-3
+
+Files: declarative/settings/qmlgsettings.cpp
+Copyright: 2013-2015, Pier Luigi Fiorini
+  2013, Canonical Ltd
+License: LGPL-3
+
+Files: src/*
+Copyright: 2013-2015, Pier Luigi Fiorini
+  2013, Canonical Ltd
+License: LGPL-3
+
+Files: src/settings/logging.h
+  src/settings/qgvariantutils.h
+  src/settings/utils.h
+Copyright: 2013-2015, Pier Luigi Fiorini
+License: LGPL-3
+
+Files: tests/*
+Copyright: 2012-2015, Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2016 Eugenio Paolantonio (g7) <me@medesimo.eu>
+License: GPL-3+
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 dated June, 1991, or (at
+ your option) any later version.
+ .
+ On Debian systems, the complete text of version 2 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 3, or (at
+ your option) any later version.
+ .
+ On Debian systems, the complete text of version 3 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-3
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License as published by the
+ Free Software Foundation; version 3 of the License.
+ .
+ On Debian systems, the complete text of version 3 of the GNU Lesser
+ General Public License can be found in `/usr/share/common-licenses/LGPL-3'.
